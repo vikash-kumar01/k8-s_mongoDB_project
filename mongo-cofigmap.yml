@@ -1,0 +1,9 @@
+kind:apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongodb-configmap
+data:
+  database_url: mongodb-service
+
+
+#database_url = mongodb_service(server name is name of the service)
